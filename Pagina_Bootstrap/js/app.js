@@ -17,7 +17,7 @@ $(document).ready(function(){
 	});
 	var addCard = function(firstName, lastName, content, image, id){
 		var card = '<div class="col-sm-12 col-md-4 " id ="'+id+'">' +
-			'<div class="card-column">'+
+	  '<div class="card-column">'+
           '<div class="card">' +
               '<img class="card-img-top img-fluid" src="'+image+'" alt="Card image cap">' +
               '<div class="card-block ">' +
